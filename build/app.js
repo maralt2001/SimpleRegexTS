@@ -6,5 +6,6 @@ let check = (0, functions_1.rgxStringArray)(names, new RegExp('^[a-m]')).sort();
 console.log(check);
 let toCheck = (0, functions_1.rgxSingleString)("20221105", new RegExp('[^3-9]*'));
 console.log(toCheck);
-let isEmail = (0, functions_1.rgxCheckEmail)('malt.test@gmail.de');
+//check a email
+let isEmail = (0, functions_1.rgxCheckEmail)('mmll.test@gmail.de');
 console.log(isEmail);
