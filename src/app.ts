@@ -11,7 +11,7 @@ console.log(check)
 let toCheck = rgxSingleString("20221105", new RegExp('[^3-9]*'))
 console.log(toCheck)
 
-//check a email
+
 let isEmail = rgxCheckEmail('mmll.test@gmail.de')
 console.log(isEmail)
 
